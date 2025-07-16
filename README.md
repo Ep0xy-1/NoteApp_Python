@@ -1,70 +1,67 @@
 # NoteApp_Python
 
-📝 Notebook App (Tkinter + Python)
-A simple, clean, and lightweight note-taking app built using Python and Tkinter. It allows you to create, save, rename, and delete multiple notes in one interface using tabs.
+# 📝 Notebook App
 
-🔧 Features
-Tabbed Notes Interface
-Write and switch between different notes using a familiar tab system.
+A simple note-taking desktop application built with Python and Tkinter. This app lets you create, rename, delete, and save multiple notes — all organized neatly in tabs.
 
-Create New Notes
-Easily add new notes with the “New Note” button.
+![screenshot](screenshot.png) <!-- Optional: replace or remove if no image -->
 
-Rename Notes
-Right-click a tab or click the “Rename Note” button to change the title of any note.
+---
 
-Delete Notes
-Remove unwanted notes. (You must keep at least one tab open.)
+## 💡 Features
 
-Save Notes
-All your notes can be saved to a local file with one click using the “Save” button.
+- 🗂 **Tabbed Interface** — Work on multiple notes at once using tabbed navigation.
+- ➕ **Create Notes** — Add new notes with a single click.
+- ✏️ **Rename Tabs** — Easily rename notes via right-click or the "Rename" button.
+- 🗑 **Delete Notes** — Remove unwanted notes (at least one tab must remain).
+- 💾 **Save Notes** — Save all your notes to a local JSON file.
+- 🔁 **Auto-Load on Startup** — Previously saved notes are automatically restored when you reopen the app.
 
-Automatic Note Loading
-On startup, any saved notes are loaded back in, so you can continue right where you left off.
+---
 
-📂 Storage System
-All notes are saved to a file called notes_storage.json. This file is created automatically in the same directory where the script is run.
+## 📂 Note Storage
 
-Important:
-For the app to fully work (especially saving/loading), make sure the script can access or create a file called:
+All notes are saved locally in a file called `notes_storage.json`, which is created in the same directory as the app.
 
-pgsql
-Copy
-Edit
-notes_storage.json
-This is where all your notes will be stored in JSON format. If the file is missing, it will be created when you save notes for the first time.
+> **Note:** The app depends on `notes_storage.json` to fully function. If it doesn’t exist, it will be created automatically when you save your first note.
 
-🚀 How to Run
-Make sure you have Python installed (Python 3.6+ recommended).
+---
 
-Save the script (e.g., notebook_app.py).
+## 🚀 Getting Started
 
-Open a terminal or command prompt.
+### Requirements
 
-Run the app using:
+- Python 3.6 or higher
+- No external libraries required — everything uses built-in Python modules
 
-bash
-Copy
-Edit
+### How to Run
+
+```bash```
+git clone https://github.com/yourusername/notebook-app.git
+cd notebook-app
 python notebook_app.py
-📌 Requirements
-This app only uses standard Python libraries:
 
-tkinter (comes with Python)
 
-json
+## 🛠 Tech Stack
+Python 3
+Tkinter for GUI
+JSON and os for file handling
 
-os
+## 📌 Notes
+Make sure the script has permission to read/write in the directory, as it saves data to notes_storage.json.
 
-You don’t need to install any external packages.
+Rename tabs by right-clicking on them or using the "Rename Note" button.
 
-🧠 Extra Info
-Notes are saved only when you click the “Save” button.
+### 🖼 Optional Screenshot
+You can add a screenshot here to show off the UI. Save it as screenshot.png and update the path in the README.md.
 
-Right-click on any tab title to quickly rename it.
+## ✅ To-Do / Ideas for Future
+ Dark mode
 
-If you try to delete the last remaining tab, the app will show an error message to prevent data loss.
+ Autosave feature
 
-Enjoy writing your thoughts and to-do lists in a simple, local notebook app that just works — no cloud, no login, no distractions.
+ Font and theme customization
+
+ Export notes to .txt or .pdf
 
 Made in 02/07/2025

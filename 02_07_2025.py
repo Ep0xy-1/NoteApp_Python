@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk, filedialog, messagebox, simpledialog
 import json
 import os
-
+ 
 
 class NotebookApp:
     def __init__(self, root):

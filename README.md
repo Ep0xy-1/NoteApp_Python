@@ -50,16 +50,10 @@ Make sure the script has permission to read/write in the directory, as it saves 
 
 Rename tabs by right-clicking on them or using the "Rename Note" button.
 
-### 🖼 Optional Screenshot
-You can add a screenshot here to show off the UI. Save it as screenshot.png and update the path in the README.md.
+## 📃 NOTE!
+This project is open-source and free to use as long as im credited.
 
-## ✅ To-Do / Ideas for Future
- Dark mode
-
- Autosave feature
-
- Font and theme customization
-
- Export notes to .txt or .pdf
+## ❤️ Credits
+Built with love using Python’s Tkinter module.
 
 Made in 02/07/2025

@@ -5,7 +5,7 @@ import os
  
 
 class NotebookApp:
-    def __init__(self, root):
+    def __init__(self, root): 
         self.root = root
         self.root.title("Notebook App")
         self.root.geometry("800x600")

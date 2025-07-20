@@ -1,5 +1,3 @@
-# NoteApp_Python
-
 # 📝 Notebook App
 
 A simple note-taking desktop application built with Python and Tkinter. This app lets you create, rename, delete, and save multiple notes — all organized neatly in tabs.
